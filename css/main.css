@@ -94,7 +94,7 @@ body {
   font-size: 11px;
   line-height: 14px;
   letter-spacing: -0.0846154px;
-  color: #ffffff;
+  color: var(--box-section-color);
   margin: 0;
 }
 .site-section-box-item-cyan {
@@ -103,7 +103,7 @@ body {
   line-height: 14px;
   text-align: center;
   letter-spacing: -0.0846154px;
-  color: #ffffff;
+  color: var(--box-section-color);
   background-color: var(--type-name-color);
   padding: 5px 8px;
   margin-right: 8px;
@@ -117,7 +117,7 @@ body {
   line-height: 14px;
   text-align: center;
   letter-spacing: -0.0846154px;
-  color: #ffffff;
+  color: var(--box-section-color);
   background-color: var(--name-color);
   padding: 5px 8px;
   margin: 0;
@@ -126,13 +126,16 @@ body {
 .site-section-content-box-title {
   font-size: 18px;
   line-height: 24px;
-  color: #2b3939;
+  color: var(--name-color);
   margin-bottom: 8px;
+  margin-top: 0;
+  cursor: pointer;
+}
+.site-section-content-box-title:hover{
+  color: var(--type-name-color);
+  transition: all 0.2s linear;
 }
 
-.site-section-content-box-title {
-  margin-top: 0;
-}
 
 .site-section-content-box-end {
   display: flex;
@@ -169,10 +172,17 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: -0.1px;
-  color: #5ca5a5;
+  color: var(--type-name-color);
   margin-left: 16px;
   padding: 5px 8px;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.site-section-lang-item:hover{
+  color: var(--box-section-color);
+  background-color: var(--type-name-color);
+  transition: all 0.2s linear;
 }
 
 .site-section-lang-item:first-child{
