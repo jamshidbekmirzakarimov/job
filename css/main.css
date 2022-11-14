@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap");
+:root {
+  --box-section-color: #fff;
+  --back-color: #effafa;
+  --name-color: #2b3939;
+  --type-name-color: #5ca5a5;
+  --text-end-color: #7c8f8f;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan";
+  font-weight: 700;
+}
+
+.site-main{
+  background-color: var(--back-color);
+}
+.site-section-back-img {
+  width: 100%;
+  height: 156px;
+  background-image: url(../images/back-img.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.site-section {
+  padding: 76px 128px 120px 128px;
+}
+.container {
+  width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.site-section-content {
+  background-color: var(--box-section-color);
+  padding: 32px 40px 32px 40px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+  margin-bottom: 24px;
+}
+
+.site-section-content:last-child{
+  margin-bottom: 0;
+}
+
+.active {
+  border-left: 5px solid var(--type-name-color);
+}
+
+.logo-img {
+  width: 88px;
+  height: 88px;
+  margin-right: 24px;
+}
+
+.site-section-content-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-section-content-box-text {
+  display: flex;
+  align-items: center;
+}
+
+.site-section-box-list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+.site-section-box-item-logo {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--type-name-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 16px;
+}
+
+.site-section-box-item {
+  font-size: 11px;
+  line-height: 14px;
+  letter-spacing: -0.0846154px;
+  color: #ffffff;
+  margin: 0;
+}
+.site-section-box-item-cyan {
+  border-radius: 12px;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  color: #ffffff;
+  background-color: var(--type-name-color);
+  padding: 5px 8px;
+  margin-right: 8px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.site-section-box-item-black {
+  border-radius: 12px;
+  font-size: 11px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: -0.0846154px;
+  color: #ffffff;
+  background-color: var(--name-color);
+  padding: 5px 8px;
+  margin: 0;
+}
+
+.site-section-content-box-title {
+  font-size: 18px;
+  line-height: 24px;
+  color: #2b3939;
+  margin-bottom: 8px;
+}
+
+.site-section-content-box-title {
+  margin-top: 0;
+}
+
+.site-section-content-box-end {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.site-section-content-box-end-subtitle {
+  margin-top: 0;
+  margin-left: 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.115385px;
+  color: #7c8f8f;
+}
+
+.site-section-content-box-end-subtitle:first-child {
+  margin-left: 0;
+}
+
+.site-section-lang-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding-left: 0;
+}
+
+.site-section-lang-item {
+  background-color: var(--back-color);
+  color: var(--type-name-color);
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #5ca5a5;
+  margin-left: 16px;
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+.site-section-lang-item:first-child{
+  margin-left: 0;
+}
+
