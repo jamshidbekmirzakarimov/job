@@ -54,6 +54,7 @@ body {
   margin-left: auto;
 }
 .site-section-content {
+  max-width: 100%;
   background-color: var(--box-section-color);
   padding: 32px 40px 32px 40px;
   border-radius: 5px;
