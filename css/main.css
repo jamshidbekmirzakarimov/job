@@ -75,14 +75,13 @@ body {
 }
 
 .site-section-content-box {
-  max-width: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .site-section-content-box-text {
-  max-width: 100%;
   display: flex;
   align-items: center;
 }
