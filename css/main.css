@@ -43,6 +43,7 @@ body {
 }
 
 .site-section {
+  max-width: 100%;
   padding: 76px 128px 120px 128px;
 }
 .container {
